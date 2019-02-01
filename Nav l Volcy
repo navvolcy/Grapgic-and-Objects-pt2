@@ -1,0 +1,39 @@
+import turtle
+
+wn = turtle.Screen()
+draw = turtle.Turtle()
+
+draw.color("red")
+
+for s in range(4):
+    draw.forward(150)
+    draw.right(90)
+
+dawn = turtle.Turtle()
+dawn.color("aqua")
+dawn.up()
+dawn.left(90)
+dawn.forward(100)
+dawn.right(90)
+dawn.down()
+ 
+for t in range(3):
+    dawn.forward(150)
+    dawn.left(120)
+
+
+lee = turtle.Turtle()
+lee.color("black")
+lee.up()
+lee.left(180)
+lee.forward(100)
+lee.right(90)
+lee.down()
+lee.forward(100)
+
+matt = turtle.Turtle()
+matt.color("lightgreen")
+matt.up()
+matt.forward(300)
+matt.down()
+matt.circle(100)
